@@ -19,7 +19,28 @@ class QuizGame:
         print("5. 종료")
 
     def play(self):
-        print("퀴즈 풀기는 다음 단계에서 구현합니다.")
+        if not self.quizzes:
+            print("등록된 퀴즈가 없습니다. 먼저 퀴즈를 추가해주세요.")
+            return
+
+        total = len(self.quizzes)
+        correct_count = 0
+        print(f"\n퀴즈를 시작합니다! 총 {total}문제입니다.")
+
+        for number, quiz in enumerate(self.quizzes, start=1):
+            print(f"\n----- 문제 {number}/{total} -----")
+            quiz.display()
+            user_answer = read_number("정답 번호 (1~4): ", 1, 4)
+
+            if quiz.check_answer(user_answer):
+                print("정답입니다!")
+                correct_count += 1
+            else:
+                answer_text = quiz.choices[quiz.answer - 1]
+                print(f"오답입니다. 정답: {quiz.answer}번, {answer_text}")
+
+        score = round(correct_count / total * 100)
+        print(f"\n결과: {total}문제 중 {correct_count}문제 정답! ({score}점)")
 
     def add_quiz(self):
         print("퀴즈 추가는 다음 단계에서 구현합니다.")
