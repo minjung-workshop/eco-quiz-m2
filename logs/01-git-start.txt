@@ -1,0 +1,28 @@
+Script started on 2026-11-24 14:17:05+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="69" LINES="41"]
+[?2004h]0;minjung@localhost: ~/eco-quiz-m2[01;32mminjung@localhost[00m:[01;34m~/eco-quiz-m2[00m$ [7mgh repo create minjung-workshop/eco-[27m[7mq[27m[7muiz-m2 --public --source=. --remote=origin --push[27m[Agh repo create minjung-workshop/eco-quiz-m2 --public --source=. --remote=origin --push
+[?2004l[0;32m✓[0m Created repository minjung-workshop/eco-quiz-m2 on GitHub
+  https://github.com/minjung-workshop/eco-quiz-m2
+[0;32m✓[0m Added remote https://github.com/minjung-workshop/eco-quiz-m2.git
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 585 bytes | 117.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/minjung-workshop/eco-quiz-m2.git
+ * [new branch]      HEAD -> main
+branch 'main' set up to track 'origin/main'.
+[0;32m✓[0m Pushed commits to https://github.com/minjung-workshop/eco-quiz-m2.git
+[?2004h]0;minjung@localhost: ~/eco-quiz-m2[01;32mminjung@localhost[00m:[01;34m~/eco-quiz-m2[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlogs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;minjung@localhost: ~/eco-quiz-m2[01;32mminjung@localhost[00m:[01;34m~/eco-quiz-m2[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-24 14:17:34+09:00 [COMMAND_EXIT_CODE="0"]
