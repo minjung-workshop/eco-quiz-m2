@@ -86,3 +86,20 @@ Ctrl+C 또는 EOF가 발생하면 안내하고 가능한 경우 저장 후 종�
 
 ## 저장소 복제 실습
 별도 폴더에 clone한 저장소에서 README를 수정하고 commit과 push를 수행했습니다.
+
+## 제출용 실행 화면
+- [개발 환경 및 Python·Git 설정](evidence/environment.png)
+- [Git 커밋과 브랜치 병합 그래프](evidence/git-graph.png)
+- [퀴즈 목록](evidence/quiz-list.png)
+- [퀴즈 플레이](evidence/quiz-play.png)
+- [퀴즈 추가](evidence/quiz-add.png)
+- [최고 점수 확인](evidence/quiz-score.png)
+
+## Git 실습 기록
+기능별로 커밋하고 feature/quiz-play 브랜치에서 점수 반환 기능을 보완한 뒤
+main에 --no-ff 방식으로 병합했습니다.
+별도 폴더에 clone한 저장소에서 README를 수정하고 push한 뒤,
+원래 작업 폴더에서 pull --ff-only로 변경 사항을 가져왔습니다.
+
+- [clone과 pull 실행 로그](logs/07-clone-pull.txt)
+- [개발 환경 확인 로그](logs/08-environment.txt)

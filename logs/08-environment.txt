@@ -1,0 +1,6 @@
+2026-11-24T16:29:47+09:00
+Python 3.12.3
+git version 2.43.0
+Min Jung Kim
+359398478+minjung-workshop@users.noreply.github.com
+/home/minjung/eco-quiz-m2
