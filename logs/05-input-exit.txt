@@ -1,0 +1,33 @@
+Script started on 2026-11-24 16:08:02+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="69" LINES="41"]
+[?2004h]0;minjung@localhost: ~/eco-quiz-m2[01;32mminjung@localhost[00m:[01;34m~/eco-quiz-m2[00m$ [7mpython3 main.py[27mpython3 main.py
+[?2004l저장된 데이터를 불러왔습니다. 퀴즈 6개
+
+===== 우리 동네 생태 퀴즈 =====
+등록된 퀴즈: 6개
+1. 퀴즈 풀기
+2. 퀴즈 추가
+3. 퀴즈 목록
+4. 점수 확인
+5. 종료
+선택: 9
+1~5 사이의 숫자를 입력해주세요.
+선택: 
+빈 입력입니다. 숫자를 입력해주세요.
+선택: 4
+
+최고 점수: 100점
+
+===== 우리 동네 생태 퀴즈 =====
+등록된 퀴즈: 6개
+1. 퀴즈 풀기
+2. 퀴즈 추가
+3. 퀴즈 목록
+4. 점수 확인
+5. 종료
+선택: ^C
+입력이 중단되어 안전하게 종료합니다.
+퀴즈와 점수를 저장했습니다.
+[?2004h]0;minjung@localhost: ~/eco-quiz-m2[01;32mminjung@localhost[00m:[01;34m~/eco-quiz-m2[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-24 16:08:54+09:00 [COMMAND_EXIT_CODE="0"]
