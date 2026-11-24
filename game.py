@@ -41,6 +41,7 @@ class QuizGame:
 
         score = round(correct_count / total * 100)
         print(f"\n결과: {total}문제 중 {correct_count}문제 정답! ({score}점)")
+        return score
 
     def add_quiz(self):
         print("퀴즈 추가는 다음 단계에서 구현합니다.")
