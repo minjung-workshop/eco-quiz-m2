@@ -1,5 +1,6 @@
 from data import create_default_quizzes
-from input_utils import read_number
+from input_utils import read_number, read_text
+from quiz import Quiz
 
 
 class QuizGame:
@@ -44,7 +45,19 @@ class QuizGame:
         return score
 
     def add_quiz(self):
-        print("퀴즈 추가는 다음 단계에서 구현합니다.")
+        print("\n새로운 생태 퀴즈를 추가합니다.")
+        question = read_text("문제: ")
+
+        choices = []
+        for number in range(1, 5):
+            choice = read_text(f"선택지 {number}: ")
+            choices.append(choice)
+
+        answer = read_number("정답 번호 (1~4): ", 1, 4)
+        quiz = Quiz(question, choices, answer)
+        self.quizzes.append(quiz)
+
+        print(f"퀴즈가 추가되었습니다! 현재 {len(self.quizzes)}개입니다.")
 
     def list_quizzes(self):
         print("퀴즈 목록은 다음 단계에서 구현합니다.")
